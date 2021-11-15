@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0;
+}
+body{
+	margin: 0;
+}
+header{
+	margin: 0 0 12px;
+}
+.bg-yellow{
+	background: #fcd802;
+}
+.no-float{
+	overflow: hidden;
+}
+.pad{
+	padding: 20px;
+}
+.sidebar, .adds{
+	width: 15%;
+}
+.sidebar{
+	height: 800px;
+}
+.adds{
+	float: right;
+}
+.article, .adds{
+	height: 720px;
+}
+.sidebar, .article{
+	float: left;
+}
+.article{
+	width: 84.4%;
+}
+.main-content{
+	float: left;
+	width: 85%;
+	padding: 0 15px;
+}
+footer{
+	margin: 12px 0 0;
+}
